@@ -26,8 +26,16 @@ end
 # Opinion shapes behavior
 # Mask Wearing
 # Social Distancing
+# keep 1.5 Distance
 # Work/School
 #
 
 # Dampening on Virus output
 # Function of Behavior.
+
+
+
+## MynotesAndré
+
+
+## EndnotsAndré
