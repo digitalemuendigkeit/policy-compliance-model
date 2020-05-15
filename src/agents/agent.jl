@@ -7,8 +7,12 @@ abstract type PolicyAgent <: AbstractAgent end
 
 mutable struct SimplePolicyAgent <: PolicyAgent
     id::Int # The identifier number of the agent
-    pos::Tuple{Int,Int} # The x, y location of the agent on a 2D grid
+    pos::Int # node id in the network
+    spos::Tuple{Int,Int} # The x, y location of the agent on a 2D grid
 end
+
+
+
 
 
 # Agent Perception

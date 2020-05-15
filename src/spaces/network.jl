@@ -17,6 +17,15 @@ function generateSpace(properties::Dict)
         return GraphSpace(LightGraphs.barabasi_albert(n, n0, k))
 
     end
+
+    if properties["type"] == "watts"
+        n = properties["n"]
+        k = properties["k"]
+        β = properties["beta"]
+
+        return GraphSpace(LightGraphs.watts_strogatz(n,k,β))
+
+    end
 end
 
 
