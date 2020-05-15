@@ -79,11 +79,3 @@ function runsimulation(abm)
 
 
 end
-
-# run the actual simulation
-
-
-abm = initialize_model()
-(data, mdata) = runsimulation(abm)
-
-#data_export tbd
